@@ -13,7 +13,8 @@ There is a bug in the SDK that leads to ncurses library errors on Arch Linux, he
 
 # Setup and Configuration
 
-Use `make menuconfig` and fill in the required settings under the `Door Lock Sensor Config` Tab. (wifi ssid, password, mqtt broker, etc.)
+- Use `make menuconfig` and fill in the toolchain path + extension (e.g. `/home/user/esp/xtensa-lx106-elf/bin/xtensa-lx106-elf-`) under the `SDK Tool Configuration` tab
+- in the same menu fill in the required settings under the `Door Lock Sensor Config` tab (wifi ssid, password, mqtt broker, etc.)
 
 # Build and Flash
 
